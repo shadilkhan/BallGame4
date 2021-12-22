@@ -1,0 +1,72 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.section {
+	background-color: rgb(176, 204, 245);
+	height: 100%;
+	width: 100%;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: monospace;
+	text-align: center;
+}
+
+.textbox-level,
+.textbox-score {
+	display: inline-block;
+	width: 50px;
+	background-color: rgb(255, 255, 255);
+}
+
+.level {
+	padding-right: 61px;
+	margin-left: 32px;
+}
+
+.score,
+.level,
+.textbox-level,
+.textbox-score {
+	font-size: 14px;
+}
+
+.canvas {
+	display: block;
+	margin: 0 auto;
+	display: flex;
+	border: 3px solid rgb(0, 0, 0);
+}
+
+.left-arrow {
+	padding: 2px 14px;
+}
+
+.right-arrow {
+	padding: 2px 15px;
+}
+
+.down-arrow {
+	padding: 2px 20px;
+}
+
+.increment,
+.decrement,
+.canvas {
+	background-color: rgb(255, 255, 255);
+	padding: 0 2px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+  margin: 0
+}
+
+.head,
+.control {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
